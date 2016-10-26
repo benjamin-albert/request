@@ -1,5 +1,16 @@
 ## Change Log
 
+### v2.77.0 (2016/10/25)
+- [#2424](https://github.com/request/request/pull/2424) Handle buffers directly instead of using "bl" (@zertosh)
+- [#2415](https://github.com/request/request/pull/2415) Re-enable timeout tests on Travis + other fixes (@mscdex)
+- [#2431](https://github.com/request/request/pull/2431) Improve timeouts accuracy and node v6.8.0+ compatibility (@mscdex, @greenkeeperio-bot)
+- [#2428](https://github.com/request/request/pull/2428) Update qs to version 6.3.0 🚀 (@greenkeeperio-bot)
+- [#2420](https://github.com/request/request/pull/2420) change .on to .once, remove possible memory leaks (@duereg)
+- [#2426](https://github.com/request/request/pull/2426) Remove "isFunction" helper in favor of "typeof" check (@zertosh)
+- [#2425](https://github.com/request/request/pull/2425) Simplify "defer" helper creation (@zertosh)
+- [#2402](https://github.com/request/request/pull/2402) form-data@2.1.1 breaks build 🚨 (@greenkeeperio-bot)
+- [#2393](https://github.com/request/request/pull/2393) Update form-data to version 2.1.0 🚀 (@greenkeeperio-bot)
+
 ### v2.76.0 (2016/10/25)
 - [#2424](https://github.com/request/request/pull/2424) Handle buffers directly instead of using "bl" (@zertosh)
 - [#2415](https://github.com/request/request/pull/2415) Re-enable timeout tests on Travis + other fixes (@mscdex)
@@ -152,7 +163,8 @@
 - [#1687](https://github.com/request/request/pull/1687) Fix caseless bug - content-type not being set for multipart/form-data (@simov, @garymathews)
 
 ### v2.59.0 (2015/07/20)
-- [#1671](https://github.com/request/request/pull/1671) Add tests and docs for using the agent, agentClass, agentOptions and forever options. Forever option defaults to using http(s).Agent in node 0.12+ (@simov)
+- [#1671](https://github.com/request/request/pull/1671) Add tests and docs for using the agent, agentClass, agentOptions and forever options.
+ Forever option defaults to using http(s).Agent in node 0.12+ (@simov)
 - [#1679](https://github.com/request/request/pull/1679) Fix - do not remove OAuth param when using OAuth realm (@simov, @jhalickman)
 - [#1668](https://github.com/request/request/pull/1668) updated dependencies (@deamme)
 - [#1656](https://github.com/request/request/pull/1656) Fix form method (@simov)
